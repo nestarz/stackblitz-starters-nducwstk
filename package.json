@@ -1,0 +1,15 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "npm install --cpu=wasm32 && npm run build"
+  },
+  "dependencies": {
+    "rolldown": "^1.0.0-beta.1"
+  }
+}
