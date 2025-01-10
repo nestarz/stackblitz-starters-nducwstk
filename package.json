@@ -7,7 +7,7 @@
   },
   "stackblitz": {
     "installDependencies": false,
-    "startCommand": "npm install --cpu=wasm32 && npm run build"
+    "startCommand": "npm install --cpu=wasm32"
   },
   "dependencies": {
     "react": "^19.0.0",
