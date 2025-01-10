@@ -10,6 +10,7 @@
     "startCommand": "npm install --cpu=wasm32 && npm run build"
   },
   "dependencies": {
+    "react": "^19.0.0",
     "rolldown": "^1.0.0-beta.1"
   }
 }

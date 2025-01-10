@@ -1,5 +1,5 @@
 import { defineConfig, rolldown } from 'rolldown';
-import createDenoLoaderPlugin from './plugin.mjs';
+import createLoaderPlugin from './plugin.mjs';
 
 const config = defineConfig({
   input: ['./test.mjs'],
@@ -19,7 +19,7 @@ const config = defineConfig({
     },
   },
   plugins: [
-    createDenoLoaderPlugin({
+    createLoaderPlugin({
       importMap: JSON.stringify({}),
       importMapBaseUrl: 'file://',
       entryPoints: ['./test.mjs'],

@@ -1,4 +1,4 @@
-export const createDenoLoaderPlugin = (options) => {
+export const createLoaderPlugin = (options) => {
   return {
     name: 'name',
     resolveId: (specifier, importer) => ({ id: 'react', external: false }),
@@ -6,4 +6,4 @@ export const createDenoLoaderPlugin = (options) => {
   };
 };
 
-export default createDenoLoaderPlugin;
+export default createLoaderPlugin;

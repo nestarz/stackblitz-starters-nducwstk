@@ -1,2 +1,2 @@
-import * as React from 'npm:react';
+import * as React from 'react';
 console.log(React);
